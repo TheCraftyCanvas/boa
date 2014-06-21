@@ -1,0 +1,523 @@
+/*
+
+
+Theme Name: Band Of Artists
+
+
+Description: Child theme for the Admired theme
+
+
+Author: Anson Han (@thecraftycanvas), The Crafty Canvas
+
+
+Author URI: http://www.thecraftycanvas.com
+
+
+Template: admired
+
+
+Version: 1.0
+
+
+*/
+
+
+
+
+@import url("../admired/style.css");
+
+
+
+
+/* Add specific style overrides below.
+
+
+-------------------------------------*/
+#menu-main-menu a, a:visited, a:hover, a:active {
+  color: #000 !important;
+}
+.sf-menu a.sf-with-ul {
+padding-right: 25px !important;
+}
+
+#head-wrapper, #footer {
+  background-image: none !important;
+}
+#head-wrapper {
+  border-bottom: 3px solid #8F8A76 !important;
+}
+#branding #header-group {
+  padding-bottom:5px;
+}
+
+div.admired-social {
+left: 30px;
+}
+#nav-bottom-wrap #menu-main-menu a:hover, #nav-bottom-wrap #menu-main-menu a:active {
+  color:#000 !important;
+}
+#footer {
+  border-top: 1px solid #8F8A76 !important;
+  font-family: "Century Gothic", sans-serif !important;
+  text-shadow: none !important;
+  color:#fff !important;
+  font-style:normal;
+  line-height:100% !important;
+  padding-bottom:15px !important;
+
+background-image: linear-gradient(bottom, #858585 76%, #E3E3E3 100%) !important;
+background-image: -o-linear-gradient(bottom, #858585 76%, #E3E3E3 100%) !important;
+background-image: -moz-linear-gradient(bottom, #858585 76%, #E3E3E3 100%) !important;
+background-image: -webkit-linear-gradient(bottom, #858585 76%, #E3E3E3 100%) !important;
+background-image: -ms-linear-gradient(bottom, #858585 76%, #E3E3E3 100%) !important;
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.76, #858585),
+	color-stop(1, #E3E3E3)
+) !important;
+}
+#footer-html {
+  margin:0 !important;
+  padding:0 !important;
+}
+
+
+#header-logo {
+  background-image:none !important;
+  width:80%;
+  height:auto !important;
+}
+#logo-banner {
+  min-width:320px;
+  width:90%;
+  padding:0;
+  border:none;
+  text-decoration:none;
+}
+
+#tourette_syndrome_widget {
+  width:100%;
+  min-height:400px;
+  overflow:hidden;
+}
+
+#tourette_syndrome_widget.tic-off {
+}
+
+#tourette_syndrome_stop_button {
+  width:70%;
+  margin:auto;
+  z-index:30;
+  background:#fff;
+  color:#000;
+  font-size:165%;
+  font-weight:bold;
+  position:relative;
+  top:-330px;
+  left:0px;
+  opacity:0.8;
+  filter:alpha(opacity=80);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  padding:10px;
+  text-align:center;
+}
+
+
+#ts-overlay h1 {
+  font-size:28px;
+  font-weight:bold;
+  text-align:center;
+  margin:0 0 10px 0;
+  font-style:italic;
+  color:#990000;
+}
+#ts-overlay ul {
+  margin:0 0 10px 15px;
+}
+
+#ts-overlay h2 {
+  display:inline;
+  font-size:18px;
+  color:#990000;
+}
+#ts-overlay p {
+  font-size:16px;
+  font-style:normal;
+  font-family: Arial, sans-serif;
+  line-height:1.4em;
+  margin:10px;
+}
+#ts-overlay blockquote {
+  font-size:18px;
+  font-style:italic;
+  font-family: Times, serif;
+  line-height:1.4em;
+  margin:10px 25px;
+}
+
+#ts-overlay ul#call-to-action-list {
+  margin: 0 0 10px 40px;
+}
+#ts-overlay ul#call-to-action-list li{
+  padding: 8px 0 0 0;
+}
+
+#menu-main-menu .sub-menu, #menu-main-menu .sub-menu li {
+  z-index:9999;
+}
+.entry-content iframe {
+  z-index:10;
+}
+
+#sub-content {
+  padding:10px 0;
+  width:100%;
+}
+
+.home .call-to-action {
+  float:left;
+}
+
+.home #CTA2 {
+  padding:0 10px;
+}
+
+.home .entry-content {
+  font-size:15px !important;
+}
+
+.home .entry-content blockquote {
+  margin 0 .5em !important;
+}
+
+.resource-img {
+  width:170px;
+  display:block;
+  float:left;
+  padding:0 20px 0 0;
+  text-align:center;
+  }
+
+.resource-img img {
+  max-width:150px;
+ }
+
+.resource-content {
+ display:block;
+ width:540px;
+ float:left;
+ }
+
+#secondary .FA_featured_articles {
+  height: 720px !important;
+}
+
+
+.page-title a , .page-title a:visited, .page-title a:active {
+  color: #666;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 2.6em;
+  text-transform: uppercase;
+}
+
+.page-title a:hover {
+  color: #F5690C;
+  text-decoration:underline;
+}
+
+
+ .intro-text {
+  margin:0 0 0 10px;
+  padding: 0 0 10px 0;
+ }
+ .intro-text .entry-content {
+   padding: 10px 0 10px 0;
+   border-bottom:1px dotted #999;
+}
+ .intro-text .entry-content p {
+  margin:0;
+ }
+ .intro-text h1{
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+ }
+
+
+ .widget-title {
+background: #8F8A76 !important;
+background: -moz-linear-gradient(top, #8F8A76 0%, #9c9c9c 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8F8A76), color-stop(100%,#9c9c9c)) !important;
+background: -webkit-linear-gradient(top, #8F8A76 0%,#9c9c9c 100%) !important;
+background: -o-linear-gradient(top, #8F8A76 0%,#9c9c9c 100%) !important;
+background: -ms-linear-gradient(top, #8F8A76 0%,#9c9c9c 100%) !important;
+background: linear-gradient(top, #8F8A76 0%,#9c9c9c 100%) !important;
+border-bottom: 1px solid #303030 !important;
+text-shadow: 0 0 0 #D66113 !important;
+}
+
+.menu-footernav-container, #menu-footernav {
+list-style:none;
+margin:0 !important;
+padding:0 !important;
+}
+
+#menu-footernav li {
+display:inline-block;
+padding: 10px 5px;
+}
+
+
+#site-info, #footer a{
+font-family: "Century Gothic", sans-serif !important;
+text-shadow: none !important;
+color:#fff !important;
+font-style:normal;
+}
+
+#footer, #footer a {
+font-size:13px !important;
+line-height:100% !important;
+}
+
+#site-info, #site-info a {
+font-size:11px !important;
+text-align:center !important;
+padding:0 !important;
+width:100% !important;
+line-height:120% !important;
+}
+
+#menu-item-574 {
+  border-right:none !important;
+}
+
+div.admired-social {
+  left: 30px;
+  top: 79px;
+}
+
+@media (min-width:800px) and (max-width:1000px) {
+  div.admired-social {
+    left: 50px;
+    top: -50px;
+    display:block;
+  }
+}
+
+
+@media (min-width:650px) and (max-width: 800px) {
+  div.admired-social {
+    left: 50px;
+    top: -50px;
+    display:block;
+  }
+  #secondary, #tertiary, .left-sidebar #secondary, .left-sidebar #tertiary {
+    clear:both;
+    margin: 0;
+    width: 100%;
+    max-width:100% !important;
+  }
+  .widget, .left-sidebar #continuous-rss-scrolling.widget, .widget, .left-sidebar #test-3.widget {
+    display:inline-block;
+    float:left;
+    clear:none;
+    width: 45%;
+    max-width:45%;
+  }
+  .widget, .left-sidebar #continuous-rss-scrolling.widget {
+    margin-left:10px;
+  }
+  #sub-content {
+    display:none;
+    visibility:hidden;
+  }
+  #menu-main-menu li a {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    letter-spacing: 0.05em;
+  }
+  #menu-main-menu.sf-menu a.sf-with-ul {
+    padding-right: 2.0em !important;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 650px) {
+  div.admired-social {
+    left: 30px;
+    top: -60px;
+  }
+  #secondary, #tertiary, .left-sidebar #secondary, .left-sidebar #tertiary {
+    clear:both;
+    margin: 0;
+    width: 100%;
+    max-width:100% !important;
+  }
+  #sub-content {
+    display:none;
+    visibility:hidden;
+  }
+  #nav-menu2 {
+    width:100% !important;
+    max-width:800px;
+  }
+  #menu-main-menu li {
+    border-right:none !important;
+  }
+  #branding {
+    padding-bottom:0 !important;
+  }
+  #branding #header-group {
+    padding: 0 !important;
+  }
+  #nav-menu2 ul ul, #nav-menu2 ul ul li {
+    color: #000 !important;
+    background:#fff !important;
+    border:none !important;
+  }
+  #ts_wrapper {
+    height:400px !important;
+  }
+  #tourette_syndrome_widget {
+    min-height:290px !important;
+  }
+  #tourette_syndrome_stop_button {
+    top:-240px;
+    left:0px;
+  }
+  .widget, .left-sidebar #continuous-rss-scrolling.widget, .widget, .left-sidebar #test-3.widget {
+    display:inline-block;
+    float:left;
+    clear:none;
+    width: 45%;
+    max-width:45%;
+  }
+  .widget, .left-sidebar #continuous-rss-scrolling.widget {
+    margin-left:5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  div.admired-social {
+    left: 30px;
+    top: -60px;
+  }
+  #secondary, #tertiary, .left-sidebar #secondary, .left-sidebar #tertiary {
+    clear:both;
+    margin: 0;
+    width: 100%;
+    max-width:100% !important;
+  }
+  #sub-content {
+    display:none;
+    visibility:hidden;
+  }
+  #nav-menu2 {
+    width:100% !important;
+    max-width:800px;
+  }
+  #menu-main-menu li {
+    border-right:none !important;
+  }
+  #menu-main-menu li a {
+    font-size: 13px !important;
+    font-weight: normal !important;
+    letter-spacing: 0.085em;
+  }
+  #nav-menu2 ul ul li, #nav-menu2 ul ul a {
+    width:261px !important;
+    color: #999 !important;
+    background:#fff !important;
+  }
+  #nav-menu2 ul ul, #nav-menu2 ul ul li {
+    color: #000 !important;
+    background:#fff !important;
+    border:none !important;
+  }
+ #ts_wrapper {
+  height:300px !important;
+ }
+  #tourette_syndrome_widget {
+    min-height:290px !important;
+  }
+  #tourette_syndrome_stop_button {
+    top:-240px;
+    left:0px;
+  }
+  h2#site-description {
+  visibility:hidden;
+  display:none;
+  height:0;
+  }
+  .widget, .left-sidebar #continuous-rss-scrolling.widget, .widget, .left-sidebar #test-3.widget {
+    display:inline-block;
+    clear:both;
+    width: 80%;
+    margin:auto;
+  }
+}
+
+@media (max-width: 320px) {
+  div.admired-social {
+    left: 30px;
+    top: -60px;
+  }
+
+  #secondary, #tertiary, .left-sidebar #secondary, .left-sidebar #tertiary {
+    clear:both;
+    margin: 0;
+    width: 100%;
+    max-width:100% !important;
+  }
+  #sub-content {
+    display:none;
+    visibility:hidden;
+  }
+  #nav-menu2 {
+    width:100% !important;
+    max-width:800px;
+  }
+  #menu-main-menu li {
+    border-right:none !important;
+  }
+  #menu-main-menu li a {
+    font-size: 13px !important;
+    font-weight: normal !important;
+    letter-spacing: 0.085em;
+  }
+  #nav-menu2 ul ul li, #nav-menu2 ul ul a {
+    width:261px !important;
+    color: #999 !important;
+    background:#fff !important;
+  }
+  #nav-menu2 ul ul, #nav-menu2 ul ul li {
+    color: #000 !important;
+    background:#fff !important;
+    border:none !important;
+  }
+   #ts_wrapper {
+    height:240px !important;
+   }
+  #tourette_syndrome_widget {
+    min-height:290px !important;
+  }
+  #tourette_syndrome_stop_button {
+    top:-240px;
+    left:0px;
+  }
+  h2#site-description {
+  visibility:hidden;
+  display:none;
+  height:0;
+  }
+}
+
+#footer #supplementary .widget-area {
+  float: left;
+  display: block;
+  clear: none;
+}

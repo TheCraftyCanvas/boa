@@ -1,0 +1,114 @@
+/*
+*  learning-tool-synthetic-division-calculator.css
+*
+*
+*/
+
+
+/***** tablet & desktop ********/
+select {
+  width: 60px;
+}
+
+#coefficient_matrix {
+  font-size: 1.25em;
+}
+
+.degree {
+  display: inline;
+}
+
+.degree input[type='text'] {
+  width: 45px;
+  padding: 5px 2px;
+  display: inline;
+  margin-right: 5px;
+  text-align: right;
+}
+
+.equation {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 20px;
+  text-align:center;
+}
+
+.synthdiv-wrapper, .result, .result-summary {
+  display: inline-block;
+  vertical-align: middle;
+}
+.synthdiv-wrapper {
+  text-align:right;
+}
+.result {
+  text-align: left;
+}
+@media all and (max-width:479px) {
+  .synthdiv-wrapper, .result {
+    max-width: 50%;
+  }
+  .result-summary {
+    width: 100%;
+    clear:both;
+    text-align: center;
+  }
+}
+@media all and (min-width:480px) {
+  .synthdiv-wrapper, .result {
+    max-width: 32.5%;
+  }
+  .result {
+    min-width: 20%;
+  }
+  .result-summary {
+    width: 33%;
+    text-align: left;
+  }
+}
+
+
+.rational-equation-wrapper {
+  border: none;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.numerator {
+}
+.denominator {
+  border-top: 1px solid;
+  margin-top: 2px;
+  padding-top: 2px;
+}
+
+.root_value, .terms, .quotient {
+  width: auto;
+  text-align: right;
+}
+pre.values {
+  padding: 5px 2px;
+  display: inline;
+  margin-right: 5px;
+}
+
+tr.quotient_spacer {
+  border-top: double #000;
+}
+
+.synthetic .root_value, .root_factor {
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+.current-step-coeff {
+  color: #990000;
+  font-weight: bold;
+}
+.intermediate {
+  color: #009900;
+  font-weight: bold;
+}
+.current-step-result {
+  color: #000099;
+  font-weight: bold;
+}

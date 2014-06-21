@@ -1,0 +1,10 @@
+/*
+Theme Name:     Responsive-boa (Responsive Child)
+Description:    Child theme for the Responsive theme
+Author:         Anson W. Han
+Template:       responsive
+Version:        1.9.0.1
+*/
+
+@import url("../responsive/style.css");
+

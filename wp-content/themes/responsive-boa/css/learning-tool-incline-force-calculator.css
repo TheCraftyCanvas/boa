@@ -1,0 +1,252 @@
+/*
+*  learning-tool-incline-force-calculator.css
+*
+*
+*/
+
+sub {
+  font-size: 67%;
+  position:relative;
+  top: 3px;
+}
+select.friction_application option {
+  whitespace:normal;
+}
+
+.general-diagram {
+  display: block;
+  padding-left: 10px;
+}
+
+.free-body-diagram {
+  clear: both;
+  width: 100%;
+  max-height: 500px;
+  padding:0 0 10px 0;
+  font-weight:bold;
+  color:#990000;
+  position:relative;
+}
+
+.results-diagram img {
+  width: auto;
+  height: auto;
+}
+.results-data {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.force-weight {
+  position: relative;
+  top: 91%;
+  left: 57%;
+}
+.force-normal {
+  position: relative;
+  top: 4%;
+  left: 45%;
+}
+.force-downhill {
+  position: relative;
+  left: 2%;
+}
+.force-upward-friction {
+  position: relative;
+  left: 57%;
+}
+.force-upward-applied {
+  position: relative;
+  left: 70%;
+}
+.force-normal-motionup {
+  position: relative;
+  top: 4%;
+  left: 45%;
+}
+.force-downhill-motionup {
+  position: relative;
+  left: 10%;
+}
+.force-downward-friction {
+  position: relative;
+  left:5%;
+}
+.force-upward-applied-motionup {
+  position: relative;
+  left: 70%;
+}
+
+@media all and (max-width:419px) {
+  .force-upward-friction {
+    top: 24%;
+  }
+  .force-upward-applied {
+    top: -3%;
+    left: 72%;
+  }
+  .force-downhill-motionup {
+    top: 21%;
+  }
+  .force-upward-applied-motionup {
+    top: 12%;
+    left: 72%;
+  }
+}
+@media all and (min-width:420px) {
+  .force-upward-friction {
+    top: 30%;
+  }
+  .force-upward-applied {
+    top: 5%;
+    left: 72%;
+  }
+  .force-upward-applied-motionup {
+    top: 19%;
+    left: 68%;
+  }
+}
+@media all and (max-width:459px) {
+  .force-downward-friction {
+    top:50%;
+  }
+}
+@media all and (min-width:460px) {
+  .force-downward-friction {
+    top:55%;
+  }
+}
+@media all and (max-width:479px) {
+.general-diagram {
+    max-width: 300px;
+    width: 90%;
+    clear: both;
+    margin: auto;
+  }
+  .free-body-diagram {
+    font-size:0.85em;
+  }
+  .force-downhill {
+    top: 12%;
+  }
+  .force-downhill-motionup {
+    top: 22%;
+  }
+}
+
+@media all and (min-width:480px) {
+  .general-diagram {
+    max-width: 380px;
+    width: 90%;
+    clear: both;
+    margin: auto;
+  }
+  .free-body-diagram {
+    font-size:1.25em;
+  }
+  .force-downhill {
+    top: 10%;
+  }
+  .force-upward-friction {
+    top: 34%;
+  }
+  .force-upward-applied {
+    top: 8%;
+    left: 72%;
+  }
+  .force-downhill-motionup {
+    top: 26%;
+  }
+  .force-downward-friction {
+    top:60%;
+  }
+}
+@media all and (min-width:520px) {
+  .force-downhill {
+    top: 17%;
+  }
+  .force-upward-friction {
+    top: 40%;
+  }
+  .force-upward-applied {
+    top: 10%;
+    left: 73%;
+  }
+  .force-downhill-motionup {
+    top: 30%;
+  }
+  .force-upward-applied-motionup {
+    top: 21%;
+    left: 71%;
+  }
+}
+@media all and (min-width:570px) {
+  .force-upward-applied {
+    top: 12%;
+    left: 75%;
+  }
+  .force-upward-applied-motionup {
+    top: 25%;
+    left: 71%;
+  }
+}
+@media all and (min-width:600px) {
+  .free-body-diagram {
+    font-size: 1.5em;
+  }
+}
+@media all and (min-width:620px) {
+  .force-upward-applied {
+    top: 13%;
+    left: 75%;
+  }
+  .force-upward-applied-motionup {
+    top: 30%;
+    left: 75%;
+  }
+}
+@media all and (min-width:700px) {
+  .force-downhill {
+    top: 25%;
+  }
+  .force-upward-friction {
+    top: 43%;
+  }
+  .force-upward-applied {
+    top: 18%;
+    left: 70%;
+  }
+  .force-downhill-motionup {
+    top: 32%;
+  }
+  .force-downward-friction {
+    top:64%;
+  }
+}
+@media all and (min-width:780px) {
+  .results-diagram {
+    height: 100%;
+    width: auto;
+  }
+  .free-body-diagram {
+    font-size: 1.85em;
+  }
+}
+
+@media all and (min-width:800px) {
+  .general-diagram {
+    max-width: 400px;
+    width: 90%;
+    clear: none;
+    float: right;
+  }
+}
+
+@media all and (min-width:900px) {
+  .force-upward-applied-motionup {
+    top: 30%;
+    left: 60%;
+  }
+}

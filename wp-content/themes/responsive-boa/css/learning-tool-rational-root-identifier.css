@@ -1,0 +1,29 @@
+/*
+*  learning-tool-rational-root-identifier.css
+*
+*
+*/
+
+
+/***** tablet & desktop ********/
+select {
+  width: 60px;
+}
+
+#coefficient_matrix {
+  font-size: 1.25em;
+}
+
+.degree {
+  display: inline;
+}
+
+.degree input[type='text'] {
+  width: 45px;
+  padding: 5px 2px;
+  display: inline;
+  margin-right: 5px;
+  text-align: right;
+}
+
+
